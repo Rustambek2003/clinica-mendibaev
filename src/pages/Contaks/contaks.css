@@ -1,0 +1,251 @@
+.BlockAboutContaks {
+	width: 1440px;
+	height: 900px;
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 0 auto;
+}
+@media (max-width: 1024px) {
+	.BlockAboutContaks {
+		width: 1024px;
+		height: 800px;
+	}
+}
+@media (max-width: 768px) {
+	.BlockAboutContaks {
+		width: 768px;
+		height: 700px;
+	}
+}
+@media (max-width: 425px) {
+	.BlockAboutContaks {
+		width: 425px;
+		height: 500px;
+	}
+}
+@media (max-width: 375px) {
+	.BlockAboutContaks {
+		width: 375px;
+		height: 400px;
+	}
+}
+@media (max-width: 320px) {
+	.BlockAboutContaks {
+		width: 320px;
+		height: 400px;
+	}
+}
+.blockFotoBackground {
+	width: 1440px;
+	height: 650px;
+	background: url(../images/fotoo.png) no-repeat;
+	background-size: cover;
+}
+@media (max-width: 1024px) {
+	.blockFotoBackground {
+		width: 1024px;
+		height: 600px;
+	}
+}
+@media (max-width: 768px) {
+	.blockFotoBackground {
+		width: 768px;
+		height: 500px;
+	}
+}
+@media (max-width: 425px) {
+	.blockFotoBackground {
+		width: 425px;
+		height: 400px;
+	}
+}
+@media (max-width: 375px) {
+	.blockFotoBackground {
+		width: 375px;
+		height: 300px;
+	}
+}
+@media (max-width: 320px) {
+	.blockFotoBackground {
+		width: 320px;
+		height: 300px;
+	}
+}
+.BlockAboutContaks h3 {
+	font-size: 40px;
+	margin-left: 100px;
+	font-family: sans-serif;
+	color: black;
+}
+@media (max-width: 1024px) {
+	.BlockAboutContaks h3 {
+		font-size: 30px;
+	}
+}
+@media (max-width: 768px) {
+	.BlockAboutContaks h3 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 425px) {
+	.BlockAboutContaks h3 {
+		font-size: 15px;
+	}
+}
+@media (max-width: 375px) {
+	.BlockAboutContaks h3 {
+		font-size: 10px;
+	}
+}
+.CardUlsug {
+	width: 400px;
+	height: auto;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 25px;
+	margin-left: 100px;
+
+	box-shadow: 10px 10px 4px rgba(235, 193, 56, 0.25);
+}
+@media (max-width: 1024px) {
+	.CardUlsug {
+		width: 300px;
+	}
+}
+@media (max-width: 768px) {
+	.CardUlsug {
+		width: 250px;
+	}
+}
+@media (max-width: 425px) {
+	.CardUlsug {
+		width: 200px;
+	}
+}
+@media (max-width: 375px) {
+	.CardUlsug {
+		width: 150px;
+	}
+}
+@media (max-width: 320px) {
+	.CardUlsug {
+		width: 150px;
+		margin-left: 70px;
+	}
+}
+.CardUlsug:hover {
+	border: 2px solid rgb(133, 133, 199);
+}
+.divFoto {
+	width: 150px;
+	height: auto;
+}
+@media (max-width: 1024px) {
+	.divFoto {
+		width: 130px;
+	}
+}
+@media (max-width: 768px) {
+	.divFoto {
+		width: 100px;
+	}
+}
+@media (max-width: 425px) {
+	.divFoto {
+		width: 80px;
+	}
+}
+@media (max-width: 375px) {
+	.divFoto {
+		width: 60px;
+	}
+}
+.divFoto img {
+	width: 100px;
+	height: 150px;
+}
+@media (max-width: 1024px) {
+	.divFoto img {
+		width: 80px;
+		height: 100px;
+	}
+}
+@media (max-width: 768px) {
+	.divFoto img {
+		width: 60px;
+		height: 80px;
+	}
+}
+@media (max-width: 425px) {
+	.divFoto img {
+		width: 40px;
+		height: 60px;
+	}
+}
+@media (max-width: 375px) {
+	.divFoto img {
+		width: 20px;
+		height: 40px;
+	}
+}
+.divText {
+	width: 300px;
+	height: auto;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.divText h4 {
+	font-size: 20px;
+
+	font-family: sans-serif;
+}
+@media (max-width: 1024px) {
+	.divText h4 {
+		font-size: 15px;
+	}
+}
+@media (max-width: 768px) {
+	.divText h4 {
+		font-size: 10px;
+	}
+}
+@media (max-width: 425px) {
+	.divText h4 {
+		font-size: 8px;
+	}
+}
+@media (max-width: 375px) {
+	.divText h4 {
+		font-size: 6px;
+	}
+}
+.Tagh4 {
+	font-size: 15px;
+}
+@media (max-width: 1024px) {
+	.Tagh4 {
+		font-size: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.Tagh4 {
+		font-size: 8px;
+	}
+}
+@media (max-width: 425px) {
+	.Tagh4 {
+		font-size: 6px;
+	}
+}
+@media (max-width: 375px) {
+	.Tagh4 {
+		font-size: 6px;
+	}
+}

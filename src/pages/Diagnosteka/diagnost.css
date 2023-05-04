@@ -1,0 +1,176 @@
+.container {
+	width: 1440px;
+	margin: 0 auto;
+	padding-left: 50px;
+}
+
+@media (max-width: 1024px) {
+	.container {
+		width: 1024px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 768px;
+	}
+}
+
+@media (max-width: 425px) {
+	.container {
+		width: 425px;
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 375px) {
+	.container {
+		width: 375px;
+		padding-left: 10px;
+	}
+}
+
+@media (max-width: 320px) {
+	.container {
+		width: 320px;
+		padding-left: 8px;
+	}
+}
+
+@media (max-width: 425px) {
+	.container h2 {
+		font-size: 17px;
+	}
+}
+@media (max-width: 375px) {
+	.container h2 {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 320px) {
+	.container h2 {
+		font-size: 12px;
+	}
+}
+
+.he11 {
+	width: 900px;
+	height: 400px;
+}
+
+@media (max-width: 1024px) {
+	.he11 {
+		width: 800px;
+		height: 390px;
+	}
+}
+
+@media (max-width: 768px) {
+	.he11 {
+		width: 690px;
+		height: 340px;
+	}
+}
+
+@media (max-width: 425px) {
+	.he11 {
+		width: 350px;
+		height: 250px;
+	}
+}
+
+@media (max-width: 375px) {
+	.he11 {
+		width: 340px;
+		height: 230px;
+	}
+}
+
+@media (max-width: 320px) {
+	.he11 {
+		width: 300px;
+		height: 210px;
+	}
+}
+
+.pp {
+	font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+	.pp {
+		color: rgb(0, 0, 0);
+		font-size: 19px;
+	}
+}
+
+@media (max-width: 768px) {
+	.pp {
+		color: rgb(0, 0, 0);
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 425px) {
+	.pp {
+		color: rgb(0, 0, 0);
+		font-size: 12px;
+		width: 380px;
+	}
+}
+
+@media (max-width: 375px) {
+	.pp {
+		color: rgb(0, 0, 0);
+		font-size: 10px;
+		width: 340px;
+	}
+}
+
+@media (max-width: 320px) {
+	.pp {
+		color: rgb(0, 0, 0);
+		font-size: 8px;
+		width: 305px;
+	}
+}
+
+.surot {
+	width: 900px;
+	height: 523px;
+}
+@media (max-width: 1024px) {
+	.surot {
+		width: 850px;
+		height: 470px;
+	}
+}
+
+@media (max-width: 768px) {
+	.surot {
+		width: 680px;
+		height: 390px;
+	}
+}
+
+@media (max-width: 425px) {
+	.surot {
+		width: 350px;
+		height: 250px;
+	}
+}
+
+@media (max-width: 375px) {
+	.surot {
+		width: 330px;
+		height: 220px;
+	}
+}
+
+@media (max-width: 320px) {
+	.surot {
+		width: 290px;
+		height: 190px;
+	}
+}

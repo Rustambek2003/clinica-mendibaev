@@ -1,0 +1,351 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.blokker {
+	width: 1440px;
+	height: auto;
+	margin: 0 auto;
+}
+@media (max-width: 1024px) {
+	.blokker {
+		width: 1024px;
+	}
+}
+@media (max-width: 768px) {
+	.blokker {
+		width: 768px;
+	}
+}
+@media (max-width: 425px) {
+	.blokker {
+		width: 425px;
+	}
+}
+@media (max-width: 375px) {
+	.blokker {
+		width: 375px;
+	}
+}
+
+@media (max-width: 320px) {
+	.blokker {
+		width: 320px;
+	}
+}
+
+.vr {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	color: rgb(24, 112, 234);
+}
+@media (max-width: 1024px) {
+	.vr {
+		font-size: 20px;
+	}
+}
+@media (max-width: 768px) {
+	.vr {
+		font-size: 15px;
+	}
+}
+@media (max-width: 425px) {
+	.vr {
+		font-size: 13px;
+	}
+}
+@media (max-width: 375px) {
+	.vr {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 320px) {
+	.vr {
+		font-size: 9px;
+	}
+}
+
+.doktorlor {
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+}
+@media (max-width: 1024px) {
+	.doktorlor {
+		gap: 50px;
+	}
+}
+@media (max-width: 768px) {
+	.doktorlor {
+		gap: 30px;
+	}
+}
+@media (max-width: 425px) {
+	.doktorlor {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.foto {
+	width: 300px;
+	border-radius: 10px;
+}
+@media (max-width: 1024px) {
+	.foto {
+		width: 250px;
+		border-radius: 8px;
+	}
+}
+@media (max-width: 768px) {
+	.foto {
+		width: 200px;
+		border-radius: 6px;
+	}
+}
+@media (max-width: 375px) {
+	.foto {
+		width: 150px;
+		border-radius: 5px;
+	}
+}
+
+@media (max-width: 320px) {
+	.foto {
+		width: 130px;
+		border-radius: 5px;
+	}
+}
+
+.el {
+	font-size: 30px;
+	color: rgb(69, 57, 225);
+}
+@media (max-width: 1024px) {
+	.el {
+		font-size: 20px;
+	}
+}
+@media (max-width: 768px) {
+	.el {
+		font-size: 15px;
+	}
+}
+@media (max-width: 375px) {
+	.el {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 320px) {
+	.el {
+		font-size: 11px;
+	}
+}
+
+.el0 {
+	display: flex;
+	gap: 20px;
+}
+@media (max-width: 1024px) {
+	.el0 {
+		gap: 15px;
+	}
+}
+@media (max-width: 768px) {
+	.el0 {
+		gap: 10px;
+	}
+}
+@media (max-width: 375px) {
+	.el0 {
+		gap: 8px;
+	}
+}
+.foto11 {
+	font-size: 20px;
+}
+@media (max-width: 1024px) {
+	.foto11 {
+		font-size: 15px;
+	}
+}
+@media (max-width: 768px) {
+	.foto11 {
+		font-size: 10px;
+	}
+}
+@media (max-width: 375px) {
+	.foto11 {
+		font-size: 8px;
+	}
+}
+
+@media (max-width: 320px) {
+	.foto11 {
+		font-size: 8px;
+	}
+}
+
+.doc22 {
+	display: flex;
+	gap: 100px;
+	justify-content: center;
+}
+@media (max-width: 1024px) {
+	.doc22 {
+		gap: 50px;
+	}
+}
+@media (max-width: 768px) {
+	.doc22 {
+		gap: 30px;
+	}
+}
+@media (max-width: 425px) {
+	.doc22 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.devv {
+	text-align: center;
+	width: 1440px;
+	height: auto;
+	margin: 0 auto;
+}
+@media (max-width: 1024px) {
+	.devv {
+		width: 1024px;
+	}
+}
+@media (max-width: 768px) {
+	.devv {
+		width: 768px;
+	}
+}
+@media (max-width: 425px) {
+	.devv {
+		width: 425px;
+	}
+}
+@media (max-width: 375px) {
+	.devv {
+		width: 375px;
+	}
+}
+
+@media (max-width: 320px) {
+	.devv {
+		width: 320px;
+	}
+}
+
+.lok {
+	display: flex;
+	font-size: 15px;
+	color: rgb(99, 99, 241);
+	margin-left: 90px;
+}
+@media (max-width: 1024px) {
+	.lok {
+		font-size: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.lok {
+		font-size: 8px;
+	}
+}
+@media (max-width: 425px) {
+	.lok {
+		font-size: 6px;
+		margin-top: 4px;
+	}
+}
+@media (max-width: 375px) {
+	.lok {
+		font-size: 5px;
+		margin-top: 8px;
+	}
+}
+
+@media (max-width: 320px) {
+	.lok {
+		font-size: 4px;
+		margin-top: 10px;
+	}
+}
+
+.lok2 {
+	width: 100px;
+}
+@media (max-width: 1024px) {
+	.lok2 img {
+		width: 340px;
+		height: 400px;
+	}
+}
+@media (max-width: 768px) {
+	.lok2 img {
+		width: 300px;
+		height: 300px;
+	}
+}
+@media (max-width: 425px) {
+	.lok2 img {
+		width: 26px;
+		height: 200px;
+		display: none;
+	}
+}
+@media (max-width: 375px) {
+	.lok2 img {
+		width: 20px;
+		height: 100px;
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	.lok2 img {
+		width: 20px;
+		height: 100px;
+		display: none;
+	}
+}
+
+/* .trop{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.good {
+	display: flex;
+}
+@media (max-width: 768px) {
+	.lok h2 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 425px) {
+	.lok h2 {
+		font-size: 15px;
+	}
+}
+@media (max-width: 375px) {
+	.lok h2 {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 320px) {
+	.lok h2 {
+		font-size: 9px;
+	}
+}
