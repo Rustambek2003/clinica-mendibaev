@@ -1,7 +1,9 @@
 import React from "react";
 import "./footer.css";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+	const navigate = useNavigate();
 	return (
 		<div>
 			<footer>
@@ -28,12 +30,43 @@ const Footer = () => {
 					<div class="blockR">
 						<h3>Полезные ссылки</h3>
 
-						<h4>О KЛИНИКЕ</h4>
-						<h4> УСЛУГИ </h4>
+						<h4
+							style={{ cursor: "pointer" }}
+							onClick={() => {
+								navigate("/");
+							}}>
+							ГЛАВНОЕ
+						</h4>
+						<h4
+							style={{ cursor: "pointer" }}
+							onClick={() => {
+								navigate("uslug");
+							}}>
+							{" "}
+							УСЛУГИ{" "}
+						</h4>
 
-						<h4>CПЕЦИАЛИСТЫ</h4>
-						<h4>ДИАГНОСТИКА</h4>
-						<h4>КОНТАКТЫ </h4>
+						<h4
+							style={{ cursor: "pointer" }}
+							onClick={() => {
+								navigate("/shpecialists");
+							}}>
+							CПЕЦИАЛИСТЫ
+						</h4>
+						<h4
+							style={{ cursor: "pointer" }}
+							onClick={() => {
+								navigate("/diagnosteka");
+							}}>
+							ДИАГНОСТИКА
+						</h4>
+						<h4
+							style={{ cursor: "pointer" }}
+							onClick={() => {
+								navigate("/contaks");
+							}}>
+							КОНТАКТЫ{" "}
+						</h4>
 					</div>
 					<div class="insta">
 						<div class="ins">

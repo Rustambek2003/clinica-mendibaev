@@ -33,19 +33,19 @@
 @media (max-width: 425px) {
 	.headerBlock {
 		width: 425px;
-		height: 30px;
+		height: 50px;
 	}
 }
 @media (max-width: 375px) {
 	.headerBlock {
 		width: 375px;
-		height: 20px;
+		height: 35px;
 	}
 }
 @media (max-width: 320px) {
 	.headerBlock {
 		width: 320px;
-		height: 20px;
+		height: 30px;
 		padding-left: 30px;
 		padding-right: 10px;
 	}
@@ -110,14 +110,14 @@
 }
 @media (max-width: 425px) {
 	.conteinerText h4 {
-		font-size: 10px;
+		font-size: 14px;
 		margin-left: 71px;
 		display: none;
 	}
 }
 @media (max-width: 375px) {
 	.conteinerText h4 {
-		font-size: 8px;
+		font-size: 10px;
 		margin-left: 60px;
 		display: none;
 	}
@@ -130,14 +130,14 @@
 }
 @media (max-width: 425px) {
 	.conteinerText h5 {
-		font-size: 10px;
+		font-size: 14px;
 		margin-left: 71px;
 		display: none;
 	}
 }
 @media (max-width: 375px) {
 	.conteinerText h5 {
-		font-size: 8px;
+		font-size: 10px;
 		margin-left: 60px;
 		display: none;
 	}
@@ -176,25 +176,7 @@
 
 @media (max-width: 425px) {
 	.elas {
-		font-size: 16px;
-		display: flex;
-		gap: 8px;
-		margin-left: 90px;
-	}
-}
-
-@media (max-width: 425px) {
-	.elas {
-		font-size: 16px;
-		display: flex;
-		gap: 8px;
-		margin-left: 90px;
-	}
-}
-
-@media (max-width: 425px) {
-	.elas {
-		font-size: 14px;
+		font-size: 18px;
 		display: flex;
 		gap: 8px;
 		margin-left: 90px;
@@ -203,7 +185,7 @@
 
 @media (max-width: 375px) {
 	.elas {
-		font-size: 12px;
+		font-size: 14px;
 		display: flex;
 		gap: 8px;
 		margin-left: 90px;
@@ -277,13 +259,19 @@
 }
 @media (max-width: 425px) {
 	.h4AboutOclock {
-		font-size: 8px;
+		font-size: 12px;
 		width: 150px;
 	}
 }
 @media (max-width: 375px) {
 	.h4AboutOclock {
-		font-size: 6px;
+		font-size: 10px;
+		width: 130px;
+	}
+}
+@media (max-width: 320px) {
+	.h4AboutOclock {
+		font-size: 8px;
 		width: 100px;
 	}
 }
@@ -324,12 +312,17 @@ button:hover::before {
 }
 @media (max-width: 425px) {
 	button {
-		font-size: 6px;
+		font-size: 8px;
 	}
 }
 @media (max-width: 375px) {
 	button {
-		font-size: 4px;
+		font-size: 8px;
+	}
+}
+@media (max-width: 320px) {
+	button {
+		font-size: 6px;
 	}
 }
 .blockAboutCategorie {
