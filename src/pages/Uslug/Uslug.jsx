@@ -2,6 +2,10 @@ import React, { useEffect } from "react";
 import "./uslug.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import fotoOrtoP from "../images/fotoUslug.jpg";
+import fotoKD from "../images/15_main.jpg";
+import fotoNV from "../images/Aerzte-medizinische-Zentren-Neurologie.jpg.730x0_q85_crop_upscale.jpg";
+import fotoN from "../images/istockphoto-973132782-612x612.jpg";
 
 const Uslug = () => {
 	useEffect(() => {
@@ -17,11 +21,7 @@ const Uslug = () => {
 				<div className="blockContent">
 					<article class="card" data-aos="fade-right">
 						<div class="temporary_text">
-							<img
-								className="fotoUslug"
-								src="https://vedantakg.com/wp-content/uploads/2022/04/Mask-group-4.svg"
-								alt=""
-							/>
+							<img className="fotoUslug" src={fotoN} alt="" />
 						</div>
 						<div class="card_content">
 							<span class="card_title">Нейрохирургия</span>
@@ -40,11 +40,7 @@ const Uslug = () => {
 					</article>
 					<article class="card" data-aos="flip-right">
 						<div class="temporary_text">
-							<img
-								className="fotoUslug"
-								src="https://vedantakg.com/wp-content/uploads/2022/04/Mask-group-6.svg"
-								alt=""
-							/>
+							<img className="fotoUslug" src={fotoNV} alt="" />
 						</div>
 						<div class="card_content">
 							<span class="card_title">Неврология</span>
@@ -63,11 +59,7 @@ const Uslug = () => {
 					</article>
 					<article class="card" data-aos="flip-right">
 						<div class="temporary_text">
-							<img
-								className="fotoUslug"
-								src="https://vedantakg.com/wp-content/uploads/2022/04/Mask-group.svg"
-								alt=""
-							/>
+							<img className="fotoUslug" src={fotoOrtoP} alt="" />
 						</div>
 						<div class="card_content">
 							<span class="card_title">Ортопедия</span>
@@ -85,11 +77,7 @@ const Uslug = () => {
 					</article>
 					<article class="card" data-aos="fade-right">
 						<div class="temporary_textblock">
-							<img
-								className="fotoUslug"
-								src="https://vedantakg.com/wp-content/uploads/2022/04/Mask-group-8.svg"
-								alt=""
-							/>
+							<img className="fotoUslug" src={fotoKD} alt="" />
 						</div>
 						<div class="card_content">
 							<span class="card_title">Kардиология</span>

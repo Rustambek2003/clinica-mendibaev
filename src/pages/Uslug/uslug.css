@@ -333,6 +333,7 @@
 	margin-left: 50px;
 	width: 150px;
 	height: 150px;
+	border-radius: 20px;
 }
 @media (max-width: 1024px) {
 	.fotoUslug {
@@ -342,30 +343,34 @@
 }
 @media (max-width: 768px) {
 	.fotoUslug {
-		width: 50px;
-		height: 50px;
+		width: 80px;
+		height: 80px;
+		margin-left: 40px;
 	}
 }
 @media (max-width: 425px) {
 	.fotoUslug {
-		width: 40px;
-		height: 40px;
-		margin-left: 65px;
+		width: 60px;
+		height: 60px;
+		margin-left: 55px;
+		border-radius: 15px;
 	}
 }
 @media (max-width: 375px) {
 	.fotoUslug {
-		width: 40px;
-		height: 40px;
-		margin-left: 60px;
+		width: 50px;
+		height: 50px;
+		margin-left: 55px;
+		border-radius: 11px;
 	}
 }
 
 @media (max-width: 320px) {
 	.fotoUslug {
-		width: 38px;
-		height: 38px;
-		margin-left: 57px;
+		width: 45px;
+		height: 45px;
+		border-radius: 8px;
+		margin-left: 55px;
 	}
 }
 
